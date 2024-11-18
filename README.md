@@ -1,4 +1,4 @@
-This is a research project to understand of init_DRAM() function for Allwinner T113-S4 chip on PBkit101-A SOM.
+This is a research project to understand of init_DRAM() function for Allwinner T113-S4 chip on [PBkit101-A SOM](https://pb-embedded.ru/pbkit101-a).
 
 Build instruction: `make CROSS_COMPILE="your cross-compiler" p=t113_s4 m=fes ddr=ddr3 fes`
 
