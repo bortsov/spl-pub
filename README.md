@@ -1,6 +1,6 @@
 This is a research project to understand of init_DRAM() function for Allwinner T113-S4 chip on [PBkit101-A SOM](https://pb-embedded.ru/pbkit101-a).
 
-The project is the reduced original project named "spl-pub" in SDK for Allwinner chips from development board manufacturer. There is no public link to there SDK.
+The project is the reduced original project named "spl-pub" in SDK for Allwinner chips from development board manufacturer. There is no public link to their SDK.
 
 Build instruction: `make CROSS_COMPILE="your cross-compiler" p=t113_s4 m=fes ddr=ddr3 fes`
 
