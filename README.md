@@ -1,5 +1,7 @@
 This is a research project to understand of init_DRAM() function for Allwinner T113-S4 chip on [PBkit101-A SOM](https://pb-embedded.ru/pbkit101-a).
 
+The project is the reduced original project named "spl-pub" in SDK for Allwinner chips from development board manufacturer. There is no public link to there SDK.
+
 Build instruction: `make CROSS_COMPILE="your cross-compiler" p=t113_s4 m=fes ddr=ddr3 fes`
 
 Result in: fes/fes1.bin; it is the firmware for run from SRAM of T113-S4.
@@ -15,3 +17,4 @@ I change debug log to UART3 (it is "DBUG1" UART connector in PB101-A-BASE develo
 Also I change initialization data of DDR3 SDRAM in fes/main/fes1_head.c file.
 
 This works, in contrast of `sudo ./xfel ddr t113-s4` command and `sunxi-fel` tool.
+
