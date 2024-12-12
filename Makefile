@@ -100,6 +100,7 @@ clean:
 
 	@rm -f $(TOPDIR)/fes/fes1.lds
 	@rm -f $(TOPDIR)/autoconf.mk
+	@rm -f $(TOPDIR)/.module.common.mk
 
 distclean: clean
 	@rm -f $(TOPDIR)/include/config.h
