@@ -2,7 +2,7 @@ This is a research project to understand of init_DRAM() function for Allwinner T
 
 The project is the reduced original project named "spl-pub" in SDK for Allwinner chips from development board manufacturer. There is no public link to their SDK.
 
-Build instruction: `make CROSS_COMPILE="your cross-compiler" p=t113_s4 m=fes ddr=ddr3 fes`
+Build instruction: `make CROSS_COMPILE="your cross-compiler" b=t113_s4 m=fes ddr=ddr3 fes`
 
 Result in: fes/fes1.bin; it is the firmware for run from SRAM of T113-S4.
 

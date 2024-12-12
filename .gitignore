@@ -1,0 +1,12 @@
+*.o
+/.module.common.mk
+/include/config.h
+/autoconf.mk
+/arch/arm/cpu/armv7/.depend
+/fes/fes1.bin
+/fes/fes1.elf
+/fes/fes1.lds
+/fes/fes1.map
+/fes/fes1_sun8iw20p1_ddr3.bin
+/fes/main/.depend
+/fes/.depend
