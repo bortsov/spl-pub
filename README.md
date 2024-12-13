@@ -18,3 +18,9 @@ Also I change initialization data of DDR3 SDRAM in fes/main/fes1_head.c file.
 
 This works, in contrast of `sudo ./xfel ddr t113-s4` command and `sunxi-fel` tool.
 
+If you want to run without `sudo`, you need to setup udev rule. See [here](https://linux-sunxi.org/ADB#Only_root_has_access).
+
+```
+$ sudo echo SUBSYSTEM==\"usb\", ATTR{idVendor}==\"1f3a\", MODE=\"0666\", GROUP=\"plugdev\" >/etc/udev/rules.d/51-t113s4.rules
+$ sudo udevadm trigger
+```
